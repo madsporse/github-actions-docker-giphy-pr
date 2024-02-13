@@ -15,7 +15,7 @@ jobs:
       
       - name: Post PR Comment
         uses: ./
-        wih:
+        with:
           # github-token: automatically available (native GitHub secret)
           # the "permissions" above are used to assign permissions to this token
           # giphy-api-key: get from the Giphy Developers portal
